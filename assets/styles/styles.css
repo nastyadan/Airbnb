@@ -1,0 +1,122 @@
+@import "colors.css";
+
+* {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: var(--mainfont-color);
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper_searchcontainer {
+    font-weight: bold;
+}
+
+.wrapper_searchbar,
+.wrapper_buttons {
+    border: 1px solid var(--lightborder-color);
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.wrapper_searchbar {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 352px;
+    padding: 8px 8px 8px 25px;
+    line-height: 22px;
+}
+
+.searchbarelem,
+.searchbarelem_gray {
+
+    padding-right: 18px;
+}
+
+.searchbarelem {
+    border-right: 1px solid var(--lightborder-color);
+}
+
+.searchbarelem_gray {
+    color: var(--grayfont-color);
+}
+
+.button_globe {
+    width: 16px;
+    height: 16px;
+    background-image: url("/assets/images/button_globe.png");
+    border: none;
+    border-radius: 100%;
+}
+
+.div_home {
+    line-height: 18px;
+}
+
+.wrapper_settings,
+.wrapper_buttons {
+    display: inline-flex;
+}
+
+.gamburger_menu {
+    width: 16px;
+    height: 16px;
+    background-image: url("/assets/images/gamburger_menu.png");
+    border: none;
+    margin: 13px 12px 13px 13px;
+}
+
+.profile {
+    width: 30px;
+    height: 30px;
+    background-image: url("/assets/images/profile_pic.png");
+    border: none;
+    margin: 5px 5px 5px 0;
+}
+
+.button_search {
+    width: 32px;
+    height: 32px;
+    background-image: url("/assets/images/icons/icon_search-button.png");
+    border: none;
+    border-radius: 100%;
+}
+
+.nav {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style-type: none;
+}
+
+.a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 32px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.icon_nav {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 8px;
+}
+
+.button_next {
+    width: 26px;
+    height: 26px;
+    background-image: url(/assets/images/button_next.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid var(--lightborder-color);
+    border-radius: 100%;
+}
